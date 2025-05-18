@@ -173,7 +173,7 @@ void read_matrix_from_file(const char* filename, Node** root, int* rows, int* co
         return;
     }
 
-    char line[1024];
+    char line[100];
     *rows = 0;
     *cols = 0;
 
